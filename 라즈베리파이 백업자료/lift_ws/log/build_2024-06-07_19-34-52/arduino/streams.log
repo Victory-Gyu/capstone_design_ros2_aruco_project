@@ -1,0 +1,17 @@
+[2.510s] Invoking command in '/home/ubuntu/lift_ws/build/arduino': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data
+[3.543s] running develop
+[4.017s] running egg_info
+[4.017s] writing arduino.egg-info/PKG-INFO
+[4.018s] writing dependency_links to arduino.egg-info/dependency_links.txt
+[4.019s] writing entry points to arduino.egg-info/entry_points.txt
+[4.020s] writing requirements to arduino.egg-info/requires.txt
+[4.020s] writing top-level names to arduino.egg-info/top_level.txt
+[4.161s] reading manifest file 'arduino.egg-info/SOURCES.txt'
+[4.164s] writing manifest file 'arduino.egg-info/SOURCES.txt'
+[4.170s] running build_ext
+[4.172s] Creating /home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages/arduino.egg-link (link to .)
+[4.175s] Installing lift_test script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+[4.176s] 
+[4.177s] Installed /home/ubuntu/lift_ws/build/arduino
+[4.177s] running symlink_data
+[4.283s] Invoked command in '/home/ubuntu/lift_ws/build/arduino' returned '0': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data

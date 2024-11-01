@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.004032] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.005888] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.008807] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.009456] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.009826] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.010417] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.010739] (-) JobUnselected: {'identifier': 'image_common'}
+[0.010997] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.011208] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.011477] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.011762] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.012092] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.017318] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.017815] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.019637] (-) JobUnselected: {'identifier': 'image_view'}
+[0.020165] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.020689] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.021046] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.021364] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.021779] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.022295] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.022905] (camera_calibration) JobQueued: {'identifier': 'camera_calibration', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_geometry', '/home/ubuntu/ros2_ws/install/image_geometry')])}
+[0.023496] (camera_calibration) JobStarted: {'identifier': 'camera_calibration'}
+[0.097203] (-) TimerEvent: {}
+[0.198360] (-) TimerEvent: {}
+[0.300035] (-) TimerEvent: {}
+[0.402076] (-) TimerEvent: {}
+[0.503874] (-) TimerEvent: {}
+[0.605452] (-) TimerEvent: {}
+[0.707188] (-) TimerEvent: {}
+[0.809080] (-) TimerEvent: {}
+[0.910312] (-) TimerEvent: {}
+[1.011907] (-) TimerEvent: {}
+[1.113375] (-) TimerEvent: {}
+[1.215329] (-) TimerEvent: {}
+[1.316834] (-) TimerEvent: {}
+[1.418136] (-) TimerEvent: {}
+[1.519898] (-) TimerEvent: {}
+[1.621670] (-) TimerEvent: {}
+[1.723469] (-) TimerEvent: {}
+[1.825235] (-) TimerEvent: {}
+[1.926917] (-) TimerEvent: {}
+[2.028220] (-) TimerEvent: {}
+[2.129966] (-) TimerEvent: {}
+[2.235180] (-) TimerEvent: {}
+[2.336618] (-) TimerEvent: {}
+[2.438437] (-) TimerEvent: {}
+[2.541240] (-) TimerEvent: {}
+[2.642575] (-) TimerEvent: {}
+[2.744178] (-) TimerEvent: {}
+[2.845621] (-) TimerEvent: {}
+[2.947271] (-) TimerEvent: {}
+[3.049334] (-) TimerEvent: {}
+[3.144931] (camera_calibration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/camera_calibration', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/camera_calibration/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/camera_calibration', '--record', '/home/ubuntu/ros2_ws/build/camera_calibration/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/image_pipeline/camera_calibration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 57014 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/image_geometry/lib:/home/ubuntu/ros2_ws/install/cv_bridge/lib:/home/ubuntu/ros2_ws/install/v4l2_camera/lib:/home/ubuntu/ros2_ws/install/stereo_image_proc/lib:/home/ubuntu/ros2_ws/install/image_proc/lib:/home/ubuntu/ros2_ws/install/tracetools_image_pipeline/lib:/home/ubuntu/ros2_ws/install/theora_image_transport/lib:/home/ubuntu/ros2_ws/install/image_view/lib:/home/ubuntu/ros2_ws/install/image_rotate/lib:/home/ubuntu/ros2_ws/install/image_publisher/lib:/home/ubuntu/ros2_ws/install/depth_image_proc/lib:/home/ubuntu/ros2_ws/install/compressed_image_transport/lib:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/ros2_ws/install/image_transport/lib:/home/ubuntu/ros2_ws/install/camera_info_manager/lib:/home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib:/home/ubuntu/cv_cam_ws/install/opencv_cam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install:/home/ubuntu/cv_cam_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen.xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/ros2_ws/install/image_proc/bin:/home/ubuntu/ros2_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'STY': '2347.pts-0.ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_pipeline:/home/ubuntu/ros2_ws/install/stereo_image_proc:/home/ubuntu/ros2_ws/install/image_proc:/home/ubuntu/ros2_ws/install/tracetools_image_pipeline:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/image_view:/home/ubuntu/ros2_ws/install/image_rotate:/home/ubuntu/ros2_ws/install/image_publisher:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/depth_image_proc:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/camera_calibration:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/cv_cam_ws/install/opencv_cam:/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'ROS_MASTER_URI': 'http://192.168.0.12:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'WINDOW': '0', 'OpenCV_DIR': '/usr/local/lib/cmake/opencv4', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/camera_calibration', 'OPENCR_PORT': '/dev/ttyUSB0', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.219.102 57014 192.168.219.106 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERMCAP': 'SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#24:co#80:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/build/opencv_tests:/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/build/camera_calibration/src:/home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': '192.168.0.12', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_pipeline:/home/ubuntu/ros2_ws/install/stereo_image_proc:/home/ubuntu/ros2_ws/install/image_proc:/home/ubuntu/ros2_ws/install/tracetools_image_pipeline:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_view:/home/ubuntu/ros2_ws/install/image_rotate:/home/ubuntu/ros2_ws/install/image_publisher:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/depth_image_proc:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/cv_cam_ws/install/opencv_cam:/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[3.157489] (-) TimerEvent: {}
+[3.259169] (-) TimerEvent: {}
+[3.360878] (-) TimerEvent: {}
+[3.462553] (-) TimerEvent: {}
+[3.564191] (-) TimerEvent: {}
+[3.665965] (-) TimerEvent: {}
+[3.767296] (-) TimerEvent: {}
+[3.868753] (-) TimerEvent: {}
+[3.970518] (-) TimerEvent: {}
+[4.072730] (-) TimerEvent: {}
+[4.175102] (-) TimerEvent: {}
+[4.281552] (-) TimerEvent: {}
+[4.382749] (-) TimerEvent: {}
+[4.485251] (-) TimerEvent: {}
+[4.587645] (-) TimerEvent: {}
+[4.688946] (-) TimerEvent: {}
+[4.791275] (-) TimerEvent: {}
+[4.892593] (-) TimerEvent: {}
+[4.994436] (-) TimerEvent: {}
+[5.095676] (-) TimerEvent: {}
+[5.196971] (-) TimerEvent: {}
+[5.298161] (-) TimerEvent: {}
+[5.399574] (-) TimerEvent: {}
+[5.501467] (-) TimerEvent: {}
+[5.602810] (-) TimerEvent: {}
+[5.687239] (camera_calibration) StdoutLine: {'line': b'running egg_info\n'}
+[5.692634] (camera_calibration) StdoutLine: {'line': b'creating ../../../build/camera_calibration/camera_calibration.egg-info\n'}
+[5.694333] (camera_calibration) StdoutLine: {'line': b'writing ../../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO\n'}
+[5.696584] (camera_calibration) StdoutLine: {'line': b'writing dependency_links to ../../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt\n'}
+[5.698022] (camera_calibration) StdoutLine: {'line': b'writing entry points to ../../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt\n'}
+[5.700474] (camera_calibration) StdoutLine: {'line': b'writing requirements to ../../../build/camera_calibration/camera_calibration.egg-info/requires.txt\n'}
+[5.702386] (camera_calibration) StdoutLine: {'line': b'writing top-level names to ../../../build/camera_calibration/camera_calibration.egg-info/top_level.txt\n'}
+[5.704335] (-) TimerEvent: {}
+[5.716542] (camera_calibration) StdoutLine: {'line': b"writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'\n"}
+[5.804569] (-) TimerEvent: {}
+[5.905796] (-) TimerEvent: {}
+[6.007219] (-) TimerEvent: {}
+[6.078314] (camera_calibration) StdoutLine: {'line': b"reading manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'\n"}
+[6.088018] (camera_calibration) StdoutLine: {'line': b"writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'\n"}
+[6.089648] (camera_calibration) StdoutLine: {'line': b'running build\n'}
+[6.091205] (camera_calibration) StdoutLine: {'line': b'running build_py\n'}
+[6.093123] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/camera_calibration/build\n'}
+[6.095302] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/camera_calibration/build/lib\n'}
+[6.097228] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[6.098563] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/camera_calibrator.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[6.099729] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/__init__.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[6.100692] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/calibrator.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[6.106035] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/camera_checker.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[6.108079] (-) TimerEvent: {}
+[6.111868] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes\n'}
+[6.113835] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/nodes/__init__.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes\n'}
+[6.116572] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/nodes/cameracalibrator.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes\n'}
+[6.118099] (camera_calibration) StdoutLine: {'line': b'copying src/camera_calibration/nodes/cameracheck.py -> /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes\n'}
+[6.123839] (camera_calibration) StdoutLine: {'line': b'running install\n'}
+[6.132794] (camera_calibration) StdoutLine: {'line': b'running install_lib\n'}
+[6.142040] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration\n'}
+[6.143901] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration\n'}
+[6.145417] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration\n'}
+[6.147734] (camera_calibration) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes\n'}
+[6.149742] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes\n'}
+[6.151522] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes\n'}
+[6.153014] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes\n'}
+[6.154610] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration\n'}
+[6.158842] (camera_calibration) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration\n'}
+[6.164138] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-38.pyc\n'}
+[6.195698] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/__init__.py to __init__.cpython-38.pyc\n'}
+[6.198524] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-38.pyc\n'}
+[6.201358] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-38.pyc\n'}
+[6.208382] (-) TimerEvent: {}
+[6.209728] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-38.pyc\n'}
+[6.213736] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/calibrator.py to calibrator.cpython-38.pyc\n'}
+[6.289143] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-38.pyc\n'}
+[6.300209] (camera_calibration) StdoutLine: {'line': b'running install_data\n'}
+[6.305193] (camera_calibration) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.308622] (-) TimerEvent: {}
+[6.322455] (camera_calibration) StdoutLine: {'line': b'Copying ../../../build/camera_calibration/camera_calibration.egg-info to /home/ubuntu/ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration-2.3.0-py3.8.egg-info\n'}
+[6.337265] (camera_calibration) StdoutLine: {'line': b'running install_scripts\n'}
+[6.408857] (-) TimerEvent: {}
+[6.510201] (-) TimerEvent: {}
+[6.522965] (camera_calibration) StdoutLine: {'line': b'Installing cameracalibrator script to /home/ubuntu/ros2_ws/install/camera_calibration/lib/camera_calibration\n'}
+[6.525069] (camera_calibration) StdoutLine: {'line': b'Installing cameracheck script to /home/ubuntu/ros2_ws/install/camera_calibration/lib/camera_calibration\n'}
+[6.530290] (camera_calibration) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/camera_calibration/install.log'\n"}
+[6.610499] (-) TimerEvent: {}
+[6.712513] (-) TimerEvent: {}
+[6.770137] (camera_calibration) CommandEnded: {'returncode': 0}
+[6.812775] (-) TimerEvent: {}
+[6.914668] (-) TimerEvent: {}
+[7.016710] (-) TimerEvent: {}
+[7.069505] (camera_calibration) JobEnded: {'identifier': 'camera_calibration', 'rc': 0}
+[7.080994] (-) EventReactorShutdown: {}

@@ -1,0 +1,80 @@
+[0.105s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/install/ld08_driver
+[2.094s] -- The C compiler identification is GNU 9.3.0
+[3.730s] -- The CXX compiler identification is GNU 9.3.0
+[3.788s] -- Check for working C compiler: /usr/bin/cc
+[4.463s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.474s] -- Detecting C compiler ABI info
+[5.017s] -- Detecting C compiler ABI info - done
+[5.101s] -- Detecting C compile features
+[5.105s] -- Detecting C compile features - done
+[5.124s] -- Check for working CXX compiler: /usr/bin/c++
+[5.719s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.727s] -- Detecting CXX compiler ABI info
+[6.329s] -- Detecting CXX compiler ABI info - done
+[6.416s] -- Detecting CXX compile features
+[6.420s] -- Detecting CXX compile features - done
+[6.464s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.770s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.819s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.442s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.035s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.236s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.536s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.561s] -- Looking for pthread.h
+[12.209s] -- Looking for pthread.h - found
+[12.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.805s] -- Looking for pthread_create in pthreads
+[13.286s] -- Looking for pthread_create in pthreads - not found
+[13.288s] -- Looking for pthread_create in pthread
+[13.876s] -- Looking for pthread_create in pthread - found
+[13.884s] -- Found Threads: TRUE  
+[15.297s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[16.408s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[16.463s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.171s] -- Configuring done
+[17.245s] -- Generating done
+[17.260s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/build/ld08_driver
+[17.330s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/install/ld08_driver
+[17.349s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[17.652s] [35m[1mScanning dependencies of target ld08_driver[0m
+[18.492s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[18.557s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[18.559s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[18.583s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[27.353s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[95.800s] [01m[K/home/ubuntu/turtlebot3_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[98.468s] [01m[K/home/ubuntu/turtlebot3_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[98.470s]    30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+[98.471s]       |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[157.229s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[159.745s] [100%] Built target ld08_driver
+[160.424s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[161.144s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/build/ld08_driver
+[161.228s] -- Install configuration: ""
+[161.237s] -- Execute custom install script
+[161.269s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[161.331s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+[161.395s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[161.455s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[161.528s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[161.592s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[161.652s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+[161.712s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[161.772s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+[161.832s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+[161.892s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[161.951s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[162.011s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+[162.067s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[162.128s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[162.188s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[162.244s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[162.303s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[162.359s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml
+[162.451s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/build/ld08_driver

@@ -1,0 +1,44 @@
+[0.644s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/camera_calibration:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j4 -l4
+[3.196s] [ 12%] Built target gtest_main
+[3.352s] [ 31%] Built target cv_bridge
+[3.373s] [ 43%] Built target gtest
+[4.690s] [ 62%] Built target cv_bridge_boost
+[4.727s] [100%] Built target cv_bridge-utest
+[5.016s] Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/camera_calibration:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j4 -l4
+[6.145s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/camera_calibration:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge
+[6.327s] -- Install configuration: ""
+[6.329s] -- Execute custom install script
+[6.343s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[6.347s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[6.371s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[6.375s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[6.386s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[6.390s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[6.403s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost//cv_bridge_boost.so
+[6.411s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[6.423s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[6.435s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[6.439s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[6.454s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[6.474s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[6.477s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[6.497s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[6.501s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[6.502s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[6.508s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[6.513s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[6.514s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[6.520s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[6.524s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[6.537s] -- Symlinking: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[6.709s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[6.713s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[6.719s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.735s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.739s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[6.745s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[6.750s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[6.760s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[7.299s] Listing '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[7.302s] Listing '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...
+[7.412s] Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/camera_calibration:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge

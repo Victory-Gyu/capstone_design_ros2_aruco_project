@@ -1,0 +1,42 @@
+[0.646s] Invoking command in '/home/a/aruco_ws/src/ar_track': PYTHONPATH=/home/a/aruco_ws/build/ar_track/prefix_override:/home/a/aruco_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ar_track build --build-base /home/a/aruco_ws/build/ar_track/build install --record /home/a/aruco_ws/build/ar_track/install.log --install-scripts $base/lib/ar_track --single-version-externally-managed install_data
+[0.728s] /home/a/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.728s] !!
+[0.729s] 
+[0.729s]         ********************************************************************************
+[0.729s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.729s]         versions. Please use the underscore name 'script_dir' instead.
+[0.729s] 
+[0.729s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[0.729s]         or your builds will no longer be supported.
+[0.729s] 
+[0.729s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.729s]         ********************************************************************************
+[0.729s] 
+[0.730s] !!
+[0.730s]   opt = self.warn_dash_deprecation(opt, section)
+[0.789s] running egg_info
+[0.789s] creating ../../build/ar_track/ar_track.egg-info
+[0.797s] writing ../../build/ar_track/ar_track.egg-info/PKG-INFO
+[0.797s] writing dependency_links to ../../build/ar_track/ar_track.egg-info/dependency_links.txt
+[0.797s] writing entry points to ../../build/ar_track/ar_track.egg-info/entry_points.txt
+[0.797s] writing requirements to ../../build/ar_track/ar_track.egg-info/requires.txt
+[0.797s] writing top-level names to ../../build/ar_track/ar_track.egg-info/top_level.txt
+[0.850s] writing manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.859s] reading manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running install
+[0.863s] running install_data
+[0.863s] creating /home/a/aruco_ws/install/ar_track/share/ament_index
+[0.863s] creating /home/a/aruco_ws/install/ar_track/share/ament_index/resource_index
+[0.863s] creating /home/a/aruco_ws/install/ar_track/share/ament_index/resource_index/packages
+[0.863s] copying resource/ar_track -> /home/a/aruco_ws/install/ar_track/share/ament_index/resource_index/packages
+[0.863s] copying package.xml -> /home/a/aruco_ws/install/ar_track/share/ar_track
+[0.863s] running install_egg_info
+[0.880s] Copying ../../build/ar_track/ar_track.egg-info to /home/a/aruco_ws/install/ar_track/lib/python3.8/site-packages/ar_track-0.0.0-py3.8.egg-info
+[0.881s] running install_scripts
+[0.902s] Installing pub_tb3_pose2d script to /home/a/aruco_ws/install/ar_track/lib/ar_track
+[0.902s] Installing stop_tb3 script to /home/a/aruco_ws/install/ar_track/lib/ar_track
+[0.902s] Installing track_marker script to /home/a/aruco_ws/install/ar_track/lib/ar_track
+[0.902s] writing list of installed files to '/home/a/aruco_ws/build/ar_track/install.log'
+[0.917s] Invoked command in '/home/a/aruco_ws/src/ar_track' returned '0': PYTHONPATH=/home/a/aruco_ws/build/ar_track/prefix_override:/home/a/aruco_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ar_track build --build-base /home/a/aruco_ws/build/ar_track/build install --record /home/a/aruco_ws/build/ar_track/install.log --install-scripts $base/lib/ar_track --single-version-externally-managed install_data

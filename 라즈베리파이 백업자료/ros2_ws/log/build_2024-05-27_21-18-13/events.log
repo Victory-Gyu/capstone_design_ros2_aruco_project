@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.001752] (camera_calibration_parsers) JobQueued: {'identifier': 'camera_calibration_parsers', 'dependencies': OrderedDict()}
+[0.002568] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.005176] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.006368] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.008034] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/ubuntu/ros2_ws/install/camera_calibration_parsers')])}
+[0.008480] (compressed_depth_image_transport) JobQueued: {'identifier': 'compressed_depth_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport')])}
+[0.008737] (compressed_image_transport) JobQueued: {'identifier': 'compressed_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport')])}
+[0.009020] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge')])}
+[0.009214] (theora_image_transport) JobQueued: {'identifier': 'theora_image_transport', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport')])}
+[0.009375] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_geometry', '/home/ubuntu/ros2_ws/install/image_geometry')])}
+[0.009536] (image_common) JobQueued: {'identifier': 'image_common', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/ubuntu/ros2_ws/install/camera_calibration_parsers'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport'), ('camera_info_manager', '/home/ubuntu/ros2_ws/install/camera_info_manager')])}
+[0.009696] (image_transport_plugins) JobQueued: {'identifier': 'image_transport_plugins', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/ros2_ws/install/cv_bridge'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport'), ('compressed_depth_image_transport', '/home/ubuntu/ros2_ws/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/ubuntu/ros2_ws/install/compressed_image_transport'), ('theora_image_transport', '/home/ubuntu/ros2_ws/install/theora_image_transport')])}
+[0.009893] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/ubuntu/ros2_ws/install/camera_calibration_parsers'), ('image_transport', '/home/ubuntu/ros2_ws/install/image_transport'), ('camera_info_manager', '/home/ubuntu/ros2_ws/install/camera_info_manager')])}
+[0.010304] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.016459] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[0.023144] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.098224] (-) TimerEvent: {}
+[0.141006] (camera_calibration_parsers) JobStarted: {'identifier': 'camera_calibration_parsers'}
+[0.187051] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.203631] (-) TimerEvent: {}
+[0.244925] (image_transport) JobEnded: {'identifier': 'image_transport', 'rc': 'SIGINT'}
+[0.249666] (camera_calibration_parsers) JobEnded: {'identifier': 'camera_calibration_parsers', 'rc': 'SIGINT'}
+[0.253913] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 'SIGINT'}
+[0.259575] (camera_info_manager) JobSkipped: {'identifier': 'camera_info_manager'}
+[0.259946] (compressed_depth_image_transport) JobSkipped: {'identifier': 'compressed_depth_image_transport'}
+[0.260114] (compressed_image_transport) JobSkipped: {'identifier': 'compressed_image_transport'}
+[0.260257] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[0.260405] (theora_image_transport) JobSkipped: {'identifier': 'theora_image_transport'}
+[0.260593] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[0.260732] (image_common) JobSkipped: {'identifier': 'image_common'}
+[0.260876] (image_transport_plugins) JobSkipped: {'identifier': 'image_transport_plugins'}
+[0.261015] (v4l2_camera) JobSkipped: {'identifier': 'v4l2_camera'}
+[0.261152] (-) EventReactorShutdown: {}

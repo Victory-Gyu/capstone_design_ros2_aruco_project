@@ -1,0 +1,9 @@
+make[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:89: CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o] Interrupt
+make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:298: gtest/CMakeFiles/gtest.dir/all] Interrupt
+make[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:76: CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:190: CMakeFiles/camera_calibration_parsers.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

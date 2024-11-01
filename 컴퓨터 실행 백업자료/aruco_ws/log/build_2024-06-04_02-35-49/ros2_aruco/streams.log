@@ -1,0 +1,35 @@
+[0.505s] Invoking command in '/home/a/aruco_ws/build/ros2_aruco': PYTHONPATH=/home/a/aruco_ws/build/ros2_aruco/prefix_override:/home/a/aruco_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/a/aruco_ws/build/ros2_aruco/build --no-deps symlink_data --force
+[0.692s] running develop
+[0.692s] /home/a/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.692s] !!
+[0.692s] 
+[0.692s]         ********************************************************************************
+[0.692s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.692s]         Instead, use pypa/build, pypa/installer or other
+[0.692s]         standards-based tools.
+[0.692s] 
+[0.692s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.692s]         ********************************************************************************
+[0.692s] 
+[0.692s] !!
+[0.692s]   easy_install.initialize_options(self)
+[0.800s] running egg_info
+[0.808s] writing ros2_aruco.egg-info/PKG-INFO
+[0.808s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[0.808s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[0.808s] writing requirements to ros2_aruco.egg-info/requires.txt
+[0.809s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[0.826s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[0.827s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[0.858s] running build_ext
+[0.858s] Creating /home/a/aruco_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)
+[0.863s] Installing aruco_generate_marker script to /home/a/aruco_ws/install/ros2_aruco/lib/ros2_aruco
+[0.864s] Installing aruco_node script to /home/a/aruco_ws/install/ros2_aruco/lib/ros2_aruco
+[0.864s] 
+[0.864s] Installed /home/a/aruco_ws/build/ros2_aruco
+[0.864s] running symlink_data
+[0.864s] symbolically linking /home/a/aruco_ws/build/ros2_aruco/resource/ros2_aruco -> /home/a/aruco_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[0.864s] symbolically linking /home/a/aruco_ws/build/ros2_aruco/package.xml -> /home/a/aruco_ws/install/ros2_aruco/share/ros2_aruco
+[0.864s] symbolically linking /home/a/aruco_ws/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/a/aruco_ws/install/ros2_aruco/share/ros2_aruco/launch
+[0.864s] symbolically linking /home/a/aruco_ws/build/ros2_aruco/config/aruco_parameters.yaml -> /home/a/aruco_ws/install/ros2_aruco/share/ros2_aruco/config
+[0.880s] Invoked command in '/home/a/aruco_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/a/aruco_ws/build/ros2_aruco/prefix_override:/home/a/aruco_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/a/aruco_ws/build/ros2_aruco/build --no-deps symlink_data --force

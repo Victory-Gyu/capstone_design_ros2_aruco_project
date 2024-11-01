@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/ar_track/ar_track.egg-info/PKG-INFO
+writing dependency_links to ../../build/ar_track/ar_track.egg-info/dependency_links.txt
+writing entry points to ../../build/ar_track/ar_track.egg-info/entry_points.txt
+writing requirements to ../../build/ar_track/ar_track.egg-info/requires.txt
+writing top-level names to ../../build/ar_track/ar_track.egg-info/top_level.txt
+reading manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+writing manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying package.xml -> /home/a/ar_track/install/ar_track/share/ar_track
+running install_egg_info
+Copying ../../build/ar_track/ar_track.egg-info to /home/a/ar_track/install/ar_track/lib/python3.8/site-packages/ar_track-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pub_tb3_pose2d script to /home/a/ar_track/install/ar_track/lib/ar_track
+Installing stop_tb3 script to /home/a/ar_track/install/ar_track/lib/ar_track
+Installing track_marker script to /home/a/ar_track/install/ar_track/lib/ar_track
+writing list of installed files to '/home/a/ar_track/build/ar_track/install.log'

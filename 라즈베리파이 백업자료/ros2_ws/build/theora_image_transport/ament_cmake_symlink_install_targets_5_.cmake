@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ros2_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/libtheora_image_transport__python.so" "TARGETS" "theora_image_transport__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

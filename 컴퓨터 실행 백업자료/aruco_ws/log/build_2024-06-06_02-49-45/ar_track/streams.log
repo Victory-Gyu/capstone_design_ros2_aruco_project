@@ -1,0 +1,16 @@
+[0.662s] Invoking command in '/home/a/aruco_ws/src/ros2_aruco/ar_track_copy': PYTHONPATH=/home/a/aruco_ws/build/ar_track/prefix_override:/home/a/aruco_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ar_track build --build-base /home/a/aruco_ws/build/ar_track/build install --record /home/a/aruco_ws/build/ar_track/install.log --install-scripts $base/lib/ar_track --single-version-externally-managed install_data
+[0.809s] /home/a/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.810s]   warnings.warn(
+[0.826s] running egg_info
+[0.826s] writing ../../../build/ar_track/ar_track.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../../../build/ar_track/ar_track.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../../build/ar_track/ar_track.egg-info/entry_points.txt
+[0.827s] writing requirements to ../../../build/ar_track/ar_track.egg-info/requires.txt
+[0.827s] writing top-level names to ../../../build/ar_track/ar_track.egg-info/top_level.txt
+[0.828s] reading manifest file '../../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running install
+[0.829s] running install_data
+[0.829s] error: can't copy 'resource/ar_track': doesn't exist or not a regular file
+[0.839s] Invoked command in '/home/a/aruco_ws/src/ros2_aruco/ar_track_copy' returned '1': PYTHONPATH=/home/a/aruco_ws/build/ar_track/prefix_override:/home/a/aruco_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ar_track build --build-base /home/a/aruco_ws/build/ar_track/build install --record /home/a/aruco_ws/build/ar_track/install.log --install-scripts $base/lib/ar_track --single-version-externally-managed install_data

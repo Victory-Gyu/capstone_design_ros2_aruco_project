@@ -1,0 +1,21 @@
+[0.442s] Invoking command in '/home/a/ar_track/src/ar_track_copy': PYTHONPATH=/home/a/ar_track/build/ar_track/prefix_override:/home/a/ar_track/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ar_track build --build-base /home/a/ar_track/build/ar_track/build install --record /home/a/ar_track/build/ar_track/install.log --single-version-externally-managed install_data
+[0.604s] running egg_info
+[0.604s] writing ../../build/ar_track/ar_track.egg-info/PKG-INFO
+[0.604s] writing dependency_links to ../../build/ar_track/ar_track.egg-info/dependency_links.txt
+[0.604s] writing entry points to ../../build/ar_track/ar_track.egg-info/entry_points.txt
+[0.604s] writing requirements to ../../build/ar_track/ar_track.egg-info/requires.txt
+[0.604s] writing top-level names to ../../build/ar_track/ar_track.egg-info/top_level.txt
+[0.605s] reading manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/ar_track/ar_track.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.606s] running install
+[0.606s] running install_data
+[0.606s] running install_egg_info
+[0.607s] removing '/home/a/ar_track/install/ar_track/lib/python3.8/site-packages/ar_track-0.0.0-py3.8.egg-info' (and everything under it)
+[0.607s] Copying ../../build/ar_track/ar_track.egg-info to /home/a/ar_track/install/ar_track/lib/python3.8/site-packages/ar_track-0.0.0-py3.8.egg-info
+[0.608s] running install_scripts
+[0.619s] Installing pub_tb3_pose2d script to /home/a/ar_track/install/ar_track/lib/ar_track
+[0.619s] Installing stop_tb3 script to /home/a/ar_track/install/ar_track/lib/ar_track
+[0.619s] Installing track_marker script to /home/a/ar_track/install/ar_track/lib/ar_track
+[0.619s] writing list of installed files to '/home/a/ar_track/build/ar_track/install.log'
+[0.630s] Invoked command in '/home/a/ar_track/src/ar_track_copy' returned '0': PYTHONPATH=/home/a/ar_track/build/ar_track/prefix_override:/home/a/ar_track/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ar_track build --build-base /home/a/ar_track/build/ar_track/build install --record /home/a/ar_track/build/ar_track/install.log --single-version-externally-managed install_data

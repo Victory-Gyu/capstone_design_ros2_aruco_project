@@ -1,0 +1,54 @@
+[0.235s] Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_geometry
+[0.388s] -- Found ament_cmake_python: 0.9.8 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[0.402s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.768s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.860s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.091s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.408s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.505s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.467s] -- Configuring done
+[7.769s] -- Generating done
+[7.794s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/image_geometry
+[7.832s] Invoked command in '/home/ubuntu/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_geometry
+[7.851s] Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_geometry -- -j4 -l4
+[8.754s] [ 18%] Built target gtest_main
+[8.767s] [ 36%] Built target gtest
+[8.869s] [ 63%] Built target image_geometry
+[9.321s] [ 81%] Built target image_geometry-utest-equi
+[9.398s] [100%] Built target image_geometry-utest
+[9.522s] Invoked command in '/home/ubuntu/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_geometry -- -j4 -l4
+[10.046s] Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/image_geometry
+[10.164s] -- Install configuration: ""
+[10.168s] -- Execute custom install script
+[10.174s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[10.177s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[10.188s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[10.363s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[10.379s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[10.385s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[10.398s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[10.418s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[10.425s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[10.429s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[10.449s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[10.463s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[10.469s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[10.474s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[10.486s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[10.492s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[10.496s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[10.501s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[10.514s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[10.518s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[10.520s] -- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[10.669s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[10.671s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[10.680s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.691s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.706s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[10.710s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[10.714s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[11.171s] Listing '/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[11.269s] Invoked command in '/home/ubuntu/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/image_geometry

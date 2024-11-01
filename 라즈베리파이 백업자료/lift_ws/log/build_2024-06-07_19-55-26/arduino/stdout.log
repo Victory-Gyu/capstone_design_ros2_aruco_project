@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing arduino.egg-info/PKG-INFO
+writing dependency_links to arduino.egg-info/dependency_links.txt
+writing entry points to arduino.egg-info/entry_points.txt
+writing requirements to arduino.egg-info/requires.txt
+writing top-level names to arduino.egg-info/top_level.txt
+reading manifest file 'arduino.egg-info/SOURCES.txt'
+writing manifest file 'arduino.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages/arduino.egg-link (link to .)
+Installing lift_test script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+Installing remote_tb3 script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+Installing remote_tb3_lift script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+Installing remote_turtle script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+
+Installed /home/ubuntu/lift_ws/build/arduino
+running symlink_data

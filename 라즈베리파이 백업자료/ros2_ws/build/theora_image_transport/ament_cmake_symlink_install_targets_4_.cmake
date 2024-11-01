@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ros2_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "theora_image_transport__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/theora_image_transport")

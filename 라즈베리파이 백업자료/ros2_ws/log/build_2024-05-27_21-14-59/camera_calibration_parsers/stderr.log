@@ -1,0 +1,2 @@
+make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:63: CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o] Interrupt

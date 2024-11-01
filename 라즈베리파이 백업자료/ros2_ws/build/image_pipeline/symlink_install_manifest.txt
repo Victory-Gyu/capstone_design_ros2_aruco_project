@@ -1,0 +1,15 @@
+/home/ubuntu/ros2_ws/install/image_pipeline/share/ament_index/resource_index/package_run_dependencies/image_pipeline
+/home/ubuntu/ros2_ws/install/image_pipeline/share/ament_index/resource_index/parent_prefix_path/image_pipeline
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/environment/path.sh
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/environment/path.dsv
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/local_setup.bash
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/local_setup.sh
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/local_setup.zsh
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/local_setup.dsv
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/package.dsv
+/home/ubuntu/ros2_ws/install/image_pipeline/share/ament_index/resource_index/packages/image_pipeline
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/cmake/image_pipelineConfig.cmake
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/cmake/image_pipelineConfig-version.cmake
+/home/ubuntu/ros2_ws/install/image_pipeline/share/image_pipeline/package.xml

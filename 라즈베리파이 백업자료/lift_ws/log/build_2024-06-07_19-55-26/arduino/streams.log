@@ -1,0 +1,20 @@
+[2.841s] Invoking command in '/home/ubuntu/lift_ws/build/arduino': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data
+[3.866s] running develop
+[4.353s] running egg_info
+[4.353s] writing arduino.egg-info/PKG-INFO
+[4.354s] writing dependency_links to arduino.egg-info/dependency_links.txt
+[4.355s] writing entry points to arduino.egg-info/entry_points.txt
+[4.356s] writing requirements to arduino.egg-info/requires.txt
+[4.356s] writing top-level names to arduino.egg-info/top_level.txt
+[4.507s] reading manifest file 'arduino.egg-info/SOURCES.txt'
+[4.511s] writing manifest file 'arduino.egg-info/SOURCES.txt'
+[4.518s] running build_ext
+[4.520s] Creating /home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages/arduino.egg-link (link to .)
+[4.524s] Installing lift_test script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+[4.524s] Installing remote_tb3 script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+[4.525s] Installing remote_tb3_lift script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+[4.526s] Installing remote_turtle script to /home/ubuntu/lift_ws/install/arduino/lib/arduino
+[4.527s] 
+[4.527s] Installed /home/ubuntu/lift_ws/build/arduino
+[4.528s] running symlink_data
+[4.634s] Invoked command in '/home/ubuntu/lift_ws/build/arduino' returned '0': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data

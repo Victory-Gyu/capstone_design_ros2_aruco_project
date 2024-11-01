@@ -1,0 +1,7 @@
+[0.264s] Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_geometry -- -j4 -l4
+[1.939s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.956s] [ 27%] Built target gtest_main
+[2.209s] [ 54%] Built target image_geometry
+[24.526s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[24.698s] make[1]: *** [CMakeFiles/Makefile2:287: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[24.836s] make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,4 @@
+make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[2]: *** [CMakeFiles/image_transport.dir/build.make:102: CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:480: gtest/CMakeFiles/gtest.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

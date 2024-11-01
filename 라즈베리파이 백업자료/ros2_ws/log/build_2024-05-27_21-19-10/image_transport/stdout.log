@@ -1,0 +1,111 @@
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 10%] Built target gtest_main
+[ 13%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 23%] Built target gtest
+[ 26%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[ 40%] Built target image_transport
+[35m[1mScanning dependencies of target image_transport-remapping[0m
+[35m[1mScanning dependencies of target list_transports[0m
+[35m[1mScanning dependencies of target republish[0m
+[35m[1mScanning dependencies of target image_transport_plugins[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[ 56%] Built target image_transport_plugins
+[ 60%] [32m[1mLinking CXX executable image_transport-remapping[0m
+[ 60%] Built target image_transport-remapping
+[ 63%] [32m[1mLinking CXX executable list_transports[0m
+[ 63%] Built target list_transports
+[35m[1mScanning dependencies of target image_transport-message_passing[0m
+[35m[1mScanning dependencies of target image_transport-subscriber[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/image_transport-message_passing.dir/test/test_message_passing.cpp.o[0m
+[35m[1mScanning dependencies of target image_transport-camera_common[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/image_transport-subscriber.dir/test/test_subscriber.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/image_transport-camera_common.dir/test/test_camera_common.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable image_transport-camera_common[0m
+[ 76%] Built target image_transport-camera_common
+[ 83%] [32m[1mLinking CXX executable image_transport-message_passing[0m
+[ 83%] [32m[1mLinking CXX executable image_transport-subscriber[0m
+[ 86%] [32m[1mLinking CXX executable republish[0m
+[ 86%] Built target image_transport-subscriber
+[ 86%] Built target image_transport-message_passing
+[ 86%] Built target republish
+[35m[1mScanning dependencies of target image_transport-single_subscriber_publisher[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/image_transport-single_subscriber_publisher.dir/test/test_single_subscriber_publisher.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable image_transport-single_subscriber_publisher[0m
+[ 93%] Built target image_transport-single_subscriber_publisher
+[35m[1mScanning dependencies of target image_transport-publisher[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/image_transport-publisher.dir/test/test_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_transport-publisher[0m
+[100%] Built target image_transport-publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport//default_plugins.xml
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/lib/libimage_transport.so
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/lib/libimage_transport_plugins.so
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/lib/image_transport/list_transports
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/lib/image_transport/republish
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_common.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_common.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_publisher.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_publisher.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_subscriber.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/camera_subscriber.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/exception.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/exception.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/image_transport.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/image_transport.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/loader_fwds.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/loader_fwds.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/publisher.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/publisher.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/publisher_plugin.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/publisher_plugin.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/raw_publisher.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/raw_publisher.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/raw_subscriber.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/raw_subscriber.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/simple_publisher_plugin.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/simple_publisher_plugin.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/single_subscriber_publisher.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/single_subscriber_publisher.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber_filter.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber_filter.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber_plugin.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/subscriber_plugin.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/transport_hints.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/transport_hints.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/include/image_transport/visibility_control.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/library_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/package.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/ament_index/resource_index/packages/image_transport
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_transport/share/image_transport/package.xml

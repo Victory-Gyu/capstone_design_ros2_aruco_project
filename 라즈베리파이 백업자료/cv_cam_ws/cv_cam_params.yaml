@@ -1,0 +1,13 @@
+---
+opencv_cam_main:
+  ros__parameters:
+    file: false
+    fps: 30
+    filename: ""
+    index: 0
+    width: 640
+    height: 480
+    camera_info:
+      camera_info_path: "/home/ubuntu/.ros/info.ini"
+    camera_frame_id: "default_cam"
+

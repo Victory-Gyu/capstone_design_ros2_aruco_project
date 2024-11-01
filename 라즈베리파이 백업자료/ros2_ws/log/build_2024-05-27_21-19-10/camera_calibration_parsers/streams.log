@@ -1,0 +1,56 @@
+[0.273s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j4 -l4
+[2.149s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.208s] [ 21%] Built target gtest_main
+[2.414s] [ 28%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[2.450s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[2.491s] [ 42%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[1419.341s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[1419.879s] [ 50%] Built target gtest
+[1506.441s] [ 57%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[1508.316s] [ 57%] Built target camera_calibration_parsers
+[1508.440s] [35m[1mScanning dependencies of target camera_calibration_parsers-parse_yml[0m
+[1508.777s] [ 64%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[1518.277s] [ 71%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[1520.409s] [ 71%] Built target camera_calibration_parsers-parse_yml
+[1520.510s] [35m[1mScanning dependencies of target convert[0m
+[1520.706s] [ 78%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[1525.865s] [ 85%] [32m[1mLinking CXX executable convert[0m
+[1527.270s] [ 85%] Built target convert
+[1527.372s] [35m[1mScanning dependencies of target camera_calibration_parsers-parse_ini[0m
+[1527.552s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[1536.516s] [100%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[1538.586s] [100%] Built target camera_calibration_parsers-parse_ini
+[1539.000s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j4 -l4
+[1539.470s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_calibration_parsers
+[1539.540s] -- Install configuration: ""
+[1539.548s] -- Execute custom install script
+[1539.553s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[1539.634s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[1539.715s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.h
+[1539.789s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.hpp
+[1539.863s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h
+[1539.939s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.hpp
+[1540.014s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.h
+[1540.090s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.hpp
+[1540.166s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/visibility_control.hpp
+[1540.244s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.sh
+[1540.322s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.dsv
+[1540.404s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[1540.482s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[1540.557s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[1540.633s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[1540.711s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[1540.787s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[1540.862s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[1540.938s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[1541.013s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[1541.090s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[1541.168s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[1541.246s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[1541.324s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1541.400s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_libraries-extras.cmake
+[1541.477s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1541.554s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[1541.629s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[1541.706s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[1541.803s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_calibration_parsers

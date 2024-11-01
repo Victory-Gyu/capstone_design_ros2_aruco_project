@@ -1,0 +1,10 @@
+[0.238s] Invoking command in '/home/ubuntu/ros2_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_transport -- -j4 -l4
+[0.860s] [ 10%] Built target gtest_main
+[0.868s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.117s] [ 13%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_common.cpp.o[0m
+[1.291s] [ 16%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[1.328s] [ 20%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[7.618s] [ 23%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[48.028s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[48.092s] make[2]: *** [CMakeFiles/image_transport.dir/build.make:76: CMakeFiles/image_transport.dir/src/publisher.cpp.o] Interrupt
+[48.227s] make[2]: *** [CMakeFiles/image_transport.dir/build.make:89: CMakeFiles/image_transport.dir/src/subscriber.cpp.o] Interrupt

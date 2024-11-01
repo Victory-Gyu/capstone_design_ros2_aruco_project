@@ -1,0 +1,135 @@
+[1.267s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.267s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa03d3580>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa03d3580>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa02e0550>)
+[1.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.987s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/lift_ws'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ignore', 'ignore_ament_install']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore_ament_install'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_pkg']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_pkg'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_meta']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_meta'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ros']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ros'
+[2.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino' with type 'ros.ament_python' and name 'arduino'
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/ubuntu/ros2_ws/install
+[2.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/cv_cam_ws/install
+[2.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ubuntu/turtlebot3_ws/install
+[2.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 174 installed packages in /opt/ros/foxy
+[2.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.638s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_args' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_target' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_clean_first' from command line to 'False'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_force_configure' from command line to 'False'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'ament_cmake_args' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.640s] DEBUG:colcon.colcon_core.verb:Building package 'arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/lift_ws/build/arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/lift_ws/install/arduino', 'merge_install': False, 'path': '/home/ubuntu/lift_ws/src/arduino', 'symlink_install': True, 'test_result_base': None}
+[2.640s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.645s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/lift_ws/src/arduino' with build type 'ament_python'
+[2.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino', 'ament_prefix_path')
+[2.676s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/ament_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/ament_prefix_path.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/ament_prefix_path.sh'
+[2.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.672s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/lift_ws/src/arduino'
+[3.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.673s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6239.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/lift_ws/build/arduino': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data
+[6241.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino', 'pythonpath_develop')
+[6241.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/build/arduino/share/arduino/hook/pythonpath_develop.ps1'
+[6241.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/lift_ws/build/arduino' returned '0': PYTHONPATH=/home/ubuntu/lift_ws/build/arduino/prefix_override:/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/lift_ws/build/arduino/build --no-deps symlink_data
+[6241.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/lift_ws/build/arduino/share/arduino/hook/pythonpath_develop.dsv'
+[6241.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/build/arduino/share/arduino/hook/pythonpath_develop.sh'
+[6241.367s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino' for CMake module files
+[6241.370s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino' for CMake config files
+[6241.374s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino/lib'
+[6241.375s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino/bin'
+[6241.375s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino/lib/pkgconfig/arduino.pc'
+[6241.376s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino/lib/python3.8/site-packages'
+[6241.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino', 'pythonpath')
+[6241.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/pythonpath.ps1'
+[6241.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/pythonpath.dsv'
+[6241.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/lift_ws/install/arduino/share/arduino/hook/pythonpath.sh'
+[6241.383s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/lift_ws/install/arduino/bin'
+[6241.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino)
+[6241.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/lift_ws/install/arduino/share/arduino/package.ps1'
+[6241.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/lift_ws/install/arduino/share/arduino/package.dsv'
+[6241.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/lift_ws/install/arduino/share/arduino/package.sh'
+[6241.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/lift_ws/install/arduino/share/arduino/package.bash'
+[6241.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/lift_ws/install/arduino/share/arduino/package.zsh'
+[6241.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/lift_ws/install/arduino/share/colcon-core/packages/arduino)
+[6241.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6241.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6241.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6241.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6241.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6241.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6241.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6241.447s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6241.479s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6241.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6241.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/lift_ws/install/local_setup.ps1'
+[6241.488s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/lift_ws/install/_local_setup_util_ps1.py'
+[6241.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/lift_ws/install/setup.ps1'
+[6241.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/lift_ws/install/local_setup.sh'
+[6241.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/lift_ws/install/_local_setup_util_sh.py'
+[6241.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/lift_ws/install/setup.sh'
+[6241.532s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/lift_ws/install/local_setup.bash'
+[6241.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/lift_ws/install/setup.bash'
+[6241.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/lift_ws/install/local_setup.zsh'
+[6241.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/lift_ws/install/setup.zsh'

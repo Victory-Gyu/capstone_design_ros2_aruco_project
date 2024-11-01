@@ -1,0 +1,101 @@
+[0.094s] Invoking command in '/home/ubuntu/cv_cam_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/cv_cam_ws/src/ROS2_turtlebot3_project/cv_cam_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cv_cam_ws/install/opencv_cam
+[0.654s] -- The C compiler identification is GNU 9.4.0
+[1.199s] -- The CXX compiler identification is GNU 9.4.0
+[1.251s] -- Check for working C compiler: /usr/bin/cc
+[1.950s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.958s] -- Detecting C compiler ABI info
+[2.729s] -- Detecting C compiler ABI info - done
+[2.828s] -- Detecting C compile features
+[2.831s] -- Detecting C compile features - done
+[2.853s] -- Check for working CXX compiler: /usr/bin/c++
+[3.622s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.630s] -- Detecting CXX compiler ABI info
+[4.405s] -- Detecting CXX compiler ABI info - done
+[4.508s] -- Detecting CXX compile features
+[4.512s] -- Detecting CXX compile features - done
+[4.700s] -- Found OpenCV version 4.2.0
+[4.757s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.174s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.175s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.894s] -- Found camera_calibration_parsers: 2.4.0 (/home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+[8.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.164s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.296s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.650s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.742s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.776s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.789s] -- Looking for pthread.h
+[13.623s] -- Looking for pthread.h - found
+[13.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.385s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.386s] -- Looking for pthread_create in pthreads
+[14.980s] -- Looking for pthread_create in pthreads - not found
+[14.981s] -- Looking for pthread_create in pthread
+[15.702s] -- Looking for pthread_create in pthread - found
+[15.713s] -- Found Threads: TRUE  
+[19.048s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[19.146s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[19.299s] -- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[19.933s] -- Found ros2_shared: 0.1.0 (/home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/cmake)
+[21.118s] -- Configuring done
+[21.859s] -- Generating done
+[21.878s] -- Build files have been written to: /home/ubuntu/cv_cam_ws/build/opencv_cam
+[21.971s] Invoked command in '/home/ubuntu/cv_cam_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/cv_cam_ws/src/ROS2_turtlebot3_project/cv_cam_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cv_cam_ws/install/opencv_cam
+[21.976s] Invoking command in '/home/ubuntu/cv_cam_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/cv_cam_ws/build/opencv_cam -- -j4 -l4
+[22.425s] Scanning dependencies of target opencv_cam_node
+[22.428s] Scanning dependencies of target subscriber_node
+[23.480s] [ 12%] Building CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o
+[23.787s] [ 25%] Building CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o
+[115.615s] [ 37%] Linking CXX shared library libopencv_cam_node.so
+[121.374s] [ 37%] Built target opencv_cam_node
+[135.864s] [ 50%] Linking CXX shared library libsubscriber_node.so
+[138.716s] [ 50%] Built target subscriber_node
+[138.898s] Scanning dependencies of target opencv_cam_main
+[140.379s] [ 62%] Building CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o
+[163.244s] [ 75%] Linking CXX executable opencv_cam_main
+[170.330s] [ 75%] Built target opencv_cam_main
+[170.449s] Scanning dependencies of target ipc_test_main
+[171.073s] [ 87%] Building CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o
+[193.463s] [100%] Linking CXX executable ipc_test_main
+[199.977s] [100%] Built target ipc_test_main
+[200.645s] Invoked command in '/home/ubuntu/cv_cam_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/cv_cam_ws/build/opencv_cam -- -j4 -l4
+[201.412s] Invoking command in '/home/ubuntu/cv_cam_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/cv_cam_ws/build/opencv_cam
+[201.524s] -- Install configuration: ""
+[201.537s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+[201.542s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+[201.552s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+[201.558s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+[201.567s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+[201.570s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+[201.575s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+[201.577s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+[201.580s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+[201.584s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+[201.587s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+[201.590s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+[201.596s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/package.dsv
+[201.600s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+[201.604s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+[201.611s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+[201.616s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+[201.620s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+[201.624s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+[201.629s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[201.633s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[201.638s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+[201.643s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[201.648s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+[201.651s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+[201.654s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/package.xml
+[201.658s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/lib/libopencv_cam_node.so
+[201.682s] -- Set runtime path of "/home/ubuntu/cv_cam_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+[201.684s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/lib/libsubscriber_node.so
+[201.718s] -- Set runtime path of "/home/ubuntu/cv_cam_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+[201.720s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+[201.725s] -- Set runtime path of "/home/ubuntu/cv_cam_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+[201.727s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+[201.734s] -- Set runtime path of "/home/ubuntu/cv_cam_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+[201.735s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/launch
+[201.736s] -- Installing: /home/ubuntu/cv_cam_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py
+[201.771s] Invoked command in '/home/ubuntu/cv_cam_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/cv_cam_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/image_transport_plugins:/home/ubuntu/ros2_ws/install/theora_image_transport:/home/ubuntu/ros2_ws/install/image_common:/home/ubuntu/ros2_ws/install/compressed_image_transport:/home/ubuntu/ros2_ws/install/compressed_depth_image_transport:/home/ubuntu/ros2_ws/install/image_transport:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/ros2_ws/install/camera_info_manager:/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/cv_cam_ws/build/opencv_cam

@@ -1,0 +1,48 @@
+[0.139s] Invoking command in '/home/ubuntu/cv_cam_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/cv_cam_ws/src/ROS2_turtlebot3_project/cv_cam_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cv_cam_ws/install/ros2_shared
+[2.267s] -- The C compiler identification is GNU 9.4.0
+[3.801s] -- The CXX compiler identification is GNU 9.4.0
+[3.877s] -- Check for working C compiler: /usr/bin/cc
+[4.614s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.626s] -- Detecting C compiler ABI info
+[5.339s] -- Detecting C compiler ABI info - done
+[5.440s] -- Detecting C compile features
+[5.444s] -- Detecting C compile features - done
+[5.473s] -- Check for working CXX compiler: /usr/bin/c++
+[6.245s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.255s] -- Detecting CXX compiler ABI info
+[7.035s] -- Detecting CXX compiler ABI info - done
+[7.138s] -- Detecting CXX compile features
+[7.142s] -- Detecting CXX compile features - done
+[7.228s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.665s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.667s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.132s] -- Configuring done
+[11.153s] -- Generating done
+[11.162s] -- Build files have been written to: /home/ubuntu/cv_cam_ws/build/ros2_shared
+[11.188s] Invoked command in '/home/ubuntu/cv_cam_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/cv_cam_ws/src/ROS2_turtlebot3_project/cv_cam_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cv_cam_ws/install/ros2_shared
+[11.212s] Invoking command in '/home/ubuntu/cv_cam_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/cv_cam_ws/build/ros2_shared -- -j4 -l4
+[11.595s] Invoked command in '/home/ubuntu/cv_cam_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/cv_cam_ws/build/ros2_shared -- -j4 -l4
+[11.950s] Invoking command in '/home/ubuntu/cv_cam_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/cv_cam_ws/build/ros2_shared
+[12.035s] -- Install configuration: ""
+[12.036s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/include
+[12.038s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/include/ros2_shared
+[12.039s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[12.040s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[12.041s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[12.045s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[12.048s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[12.054s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[12.056s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[12.057s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[12.060s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[12.062s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[12.063s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[12.065s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[12.067s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[12.070s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[12.072s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[12.075s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.078s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[12.080s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[12.083s] -- Installing: /home/ubuntu/cv_cam_ws/install/ros2_shared/share/ros2_shared/package.xml
+[12.099s] Invoked command in '/home/ubuntu/cv_cam_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/cv_cam_ws/build/ros2_shared

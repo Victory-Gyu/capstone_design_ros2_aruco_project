@@ -1,0 +1,10 @@
+[0.257s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j4 -l4
+[1.882s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.038s] [ 21%] Built target gtest_main
+[2.107s] [ 28%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[2.135s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[2.184s] [ 42%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[24.861s] make[2]: *** [CMakeFiles/camera_calibration_parsers.dir/build.make:63: CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o] Interrupt
+[24.884s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[24.886s] make[1]: *** [CMakeFiles/Makefile2:298: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[24.887s] make: *** [Makefile:141: all] Interrupt

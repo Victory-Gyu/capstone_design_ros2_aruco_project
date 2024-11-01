@@ -1,0 +1,6 @@
+[console_scripts]
+lift_test = arduino.script.lift_test:main
+remote_tb3 = arduino.script.remote_tb3:main
+remote_tb3_lift = arduino.script.remote_tb3_lift:main
+remote_turtle = arduino.script.remote_turtle:main
+
